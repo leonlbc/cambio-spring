@@ -1,4 +1,4 @@
-package com.cambio.cambio;
+package com.cambio;
 
 import java.util.List;
 
