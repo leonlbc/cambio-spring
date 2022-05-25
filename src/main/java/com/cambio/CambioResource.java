@@ -14,13 +14,6 @@ public class CambioResource {
 @Autowired
 private MoedaService moedaService;
 
-    
-    @GetMapping("/hello")
-    public String helloWorld(){
-        return "Hello ESPM! :)";
-    }
-
-
     @GetMapping("/moeda")
     public List<Moeda> listMoeda(){
         return moedaService.listAll();        
